@@ -1,0 +1,94 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-09T13:47:01.533Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3011000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.util.steps.Hooks.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Testar saque e deposito",
+        "description": "",
+        "id": "pesquisa-de-logradouro-correios;testar-saque-e-deposito;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 882000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.util.steps.Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4017000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu esteja na tela dos correios",
+            "match": {
+              "location": "br.com.util.steps.CorreioSteps.queEuEstejaNaTelaDosCorreios()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3538000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "quando pesquiso um cep \"09070240\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09070240\"",
+                  "offset": 23
+                }
+              ],
+              "location": "br.com.util.steps.CorreioSteps.quandoPesquisoUmCep(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "valido se o \"09070240\" foi encontrado na lista",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09070240\"",
+                  "offset": 12
+                }
+              ],
+              "location": "br.com.util.steps.CorreioSteps.validoSeOFoiEncontradoNaLista(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "pesquisa de logradouro correios",
+    "description": "   I as a user would like to be able to log in with a customer",
+    "id": "pesquisa-de-logradouro-correios",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/correios.feature",
+    "tags": []
+  }
+]
